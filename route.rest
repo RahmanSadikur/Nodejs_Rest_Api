@@ -1,0 +1,22 @@
+GET http://localhost:3000/testController
+
+###
+GET http://localhost:3000/testController/61e123fe138d289abfe5ea80
+
+###
+POST http://localhost:3000/testController
+Content-Type: application/json
+
+{
+    "Name":"Sadikur Rahman"
+}
+###
+PATCH  http://localhost:3000/testController/61e185f445ed93b746c4177d
+Content-Type: application/json
+
+{
+    "Name":"Rajon"
+}
+
+###
+DELETE http://localhost:3000/testController/61e185f445ed93b746c4177d

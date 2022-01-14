@@ -1,0 +1,19 @@
+{
+  "name": "rest_api_ex_1",
+  "version": "1.0.0",
+  "description": "initial project",
+  "main": "index.js",
+  "scripts": {
+    "Start":"nodemon server.js" 
+  },
+  "author": "Sadikur Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "dotenv": "^11.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
