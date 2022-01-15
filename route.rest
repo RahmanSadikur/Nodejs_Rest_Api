@@ -8,14 +8,14 @@ POST http://localhost:3000/testController
 Content-Type: application/json
 
 {
-    "Name":"Sadikur Rahman"
+    "Name":"Rupna Islam shuva"
 }
 ###
-PATCH  http://localhost:3000/testController/61e185f445ed93b746c4177d
+PATCH  http://localhost:3000/testController/61e2791088d508449e9608d1
 Content-Type: application/json
 
 {
-    "Name":"Rajon"
+    "Name":"Faul"
 }
 
 ###
